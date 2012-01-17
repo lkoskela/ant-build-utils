@@ -87,6 +87,13 @@
 		</plugins>
 	</reporting>
 	<build>
+		<extensions>
+			<extension>
+				<groupId>com.github.lkoskela</groupId>
+				<artifactId>maven-build-utils</artifactId>
+				<version>1.2</version>
+			</extension>
+		</extensions>
 		<plugins>
 			<plugin>
 				<groupId>org.codehaus.plexus</groupId>
